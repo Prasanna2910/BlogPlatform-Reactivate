@@ -1,4 +1,4 @@
-# Blogie✨ - Personal Blog UI
+# Blogify✨ - Personal Blog UI
 
 "A modern blog page with an elegant reading experience."
 
