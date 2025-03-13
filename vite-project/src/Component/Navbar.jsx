@@ -6,12 +6,12 @@ function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-[#F5ECD5] text-white shadow-md">
+    <nav className="flex items-center justify-between px-6 py-4 bg-gray-950 text-white shadow-md">
       <div className="text-xl font-bold flex items-center gap-2">
-        <FaOpencart className="text-2xl text-black text-[#3D3D3D]" />
+        <FaOpencart className="text-2xl text-white" />
         <div className=" flex justify-center ">
           <div className="flex justify-between items-center w-full">
-            <div className="text-[#3D3D3D]">Blogify</div>
+            <div className="text-white">Blogify</div>
             
           </div>
         </div>

@@ -27,7 +27,7 @@ const Main = () => {
   };
 
   return (
-    <>
+    <div className="bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20230903/pngtree-a-white-fabric-being-blown-in-the-wind-image_13200786.jpg')] bg-no-repeat bg-cover bg-center h-screen w-full">
       <Navbar />
       <div className="max-w-4xl mx-auto p-6">
         <form onSubmit={handleSubmit} className="mb-6 ">
@@ -36,7 +36,7 @@ const Main = () => {
             placeholder="Title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            className="w-full h-12 border p-3 mb-2 rounded text-lg"
+            className="w-full h-12 border p-3 mb-2 rounded text-lg bg-white"
             required
           />
 
@@ -44,7 +44,7 @@ const Main = () => {
             placeholder="Content"
             value={content}
             onChange={(e) => setContent(e.target.value)}
-            className="w-full h-96 p-2 mb-2 border rounded"
+            className="w-full h-96 p-2 mb-2 border rounded bg-white"
             required
           ></textarea>
 
@@ -67,7 +67,7 @@ const Main = () => {
           </div>
         </form>
       </div>
-    </>
+    </div>
   );
 };
 
