@@ -27,7 +27,7 @@ function Landing() {
                 onClick={() => navigate("/post")}
                 className="rounded-lg bg-[#3D3D3D] py-3 px-6 text-xs font-bold uppercase text-white shadow-md transition-all hover:shadow-lg"
               >
-                Read More
+                Write your Blog
               </button>
             </div>
           </div>
